@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        #input{
+            height: 50px;
+            width: 250px;
+        }
+       #para
+       {
+        font-size: xx-large;
+       }
+    </style>
+</head>
+<body>
+    <input type="text" id="input">
+    <button onclick="print()" id="bttn">Click</button>
+    <p id="para"></p>
+    <script>
+        function print(){
+            let x= document.getElementById('input').value
+           document.getElementById('para').innerHTML=x
+           
+        }
+    </script>
+</body>
+</html>
