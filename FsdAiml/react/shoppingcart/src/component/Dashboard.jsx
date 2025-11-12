@@ -2,7 +2,7 @@ import React from 'react'
 
 function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <div><h2 style={{backgroundColor:'pink'}}>Dashboard</h2></div>
   )
 }
 
